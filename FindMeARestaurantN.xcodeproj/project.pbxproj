@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FindMeARestaurantNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FindMeARestaurantNAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* FindMeARestaurantNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* FindMeARestaurantNViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* FindMeARestaurantNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* FindMeARestaurantNViewController.m */; };
+		940615D110E208D600946508 /* LocationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 940615CF10E208D600946508 /* LocationDetails.m */; };
+		940615D210E208D600946508 /* LocationDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940615D010E208D600946508 /* LocationDetails.xib */; };
+		940616AF10E310BF00946508 /* phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 940616AE10E310BF00946508 /* phone-icon.png */; };
+		940616B110E310D900946508 /* Menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 940616B010E310D900946508 /* Menu-icon.png */; };
+		940616B310E3122200946508 /* compass-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 940616B210E3122200946508 /* compass-icon.png */; };
+		940616FA10E49D3100946508 /* map-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 940616F910E49D3100946508 /* map-icon.png */; };
+		9406179510E4B24E00946508 /* browser-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9406179410E4B24E00946508 /* browser-icon.png */; };
+		941ED3D810F4656F009D927E /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 941ED3D710F4656F009D927E /* Entitlements.plist */; };
+		94355F5B10DF24B9006BE66B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94355F5910DF24B9006BE66B /* MapViewController.m */; };
+		94355F5C10DF24B9006BE66B /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94355F5A10DF24B9006BE66B /* MapViewController.xib */; };
+		9435618110DF68C3006BE66B /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9435618010DF68C3006BE66B /* Restaurant.m */; };
+		943562A610E0927E006BE66B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943562A510E0927E006BE66B /* MapKit.framework */; };
+		9435636F10E0A3DD006BE66B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9435636E10E0A3DD006BE66B /* CoreLocation.framework */; };
+		94464AD410F297B300A6A354 /* star-gold24-bw.png in Resources */ = {isa = PBXBuildFile; fileRef = 94464AD310F297B300A6A354 /* star-gold24-bw.png */; };
+		948E5E5710E88D9C0026A0B3 /* half-star-gold24.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E5E5610E88D9C0026A0B3 /* half-star-gold24.png */; };
+		948E5E5B10E88DB40026A0B3 /* star-gold24.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E5E5A10E88DB40026A0B3 /* star-gold24.png */; };
+		948E60A310E9EBE50026A0B3 /* small-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E60A210E9EBE50026A0B3 /* small-circle.png */; };
+		948E60A710E9ED640026A0B3 /* big-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E60A610E9ED640026A0B3 /* big-circle.png */; };
+		948E60AE10E9F00C0026A0B3 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E60AD10E9F00C0026A0B3 /* list.png */; };
+		948E60E310EC6CAD0026A0B3 /* LocationListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 948E60E110EC6CAD0026A0B3 /* LocationListView.m */; };
+		948E60E410EC6CAD0026A0B3 /* LocationListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948E60E210EC6CAD0026A0B3 /* LocationListView.xib */; };
+		948E612210EC80EF0026A0B3 /* LocationListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 948E612110EC80EF0026A0B3 /* LocationListCell.m */; };
+		948E612610EC82940026A0B3 /* LocationListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948E612510EC82940026A0B3 /* LocationListCell.xib */; };
+		948E620D10ECA5130026A0B3 /* green-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E620C10ECA5130026A0B3 /* green-dot.png */; };
+		948E621810ED7A650026A0B3 /* red-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E621710ED7A650026A0B3 /* red-dot.png */; };
+		948E621A10ED7BE80026A0B3 /* purple-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E621910ED7BE80026A0B3 /* purple-dot.png */; };
+		948E629C10EE99460026A0B3 /* food-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 948E629B10EE99460026A0B3 /* food-icon.png */; };
+		94C107101102A0D600524A92 /* next_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C1070F1102A0D600524A92 /* next_arrow.png */; };
+		94C107151102A1D500524A92 /* prev_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C107141102A1D500524A92 /* prev_arrow.png */; };
+		94C1078F1102D26200524A92 /* LocationDataList.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C1078E1102D26200524A92 /* LocationDataList.m */; };
+		94DBF45C1106F6BD00709CD4 /* map-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DBF45B1106F6BD00709CD4 /* map-32x32.png */; };
+		94DBF65A1109655800709CD4 /* back_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DBF6591109655800709CD4 /* back_arrow.png */; };
+		94DBF65C1109656200709CD4 /* more_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DBF65B1109656200709CD4 /* more_arrow.png */; };
+		94DBF6951109700500709CD4 /* list_50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DBF6941109700500709CD4 /* list_50x50.png */; };
+		94DBF6A61109740700709CD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 94DBF6A51109740700709CD4 /* Default.png */; };
+		94DBF7C8110B869600709CD4 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DBF7C5110B869600709CD4 /* FlipsideView.m */; };
+		94DBF7C9110B869600709CD4 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DBF7C7110B869600709CD4 /* FlipsideViewController.m */; };
+		94DBF7D4110B872500709CD4 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DBF7D3110B872500709CD4 /* FlipsideView.xib */; };
+		94F07EE310F67E1C00D7DB01 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F07EE210F67E1C00D7DB01 /* left-arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FindMeARestaurantNAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMeARestaurantNAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FindMeARestaurantNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindMeARestaurantNAppDelegate.m; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* FindMeARestaurantNViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindMeARestaurantNViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* FindMeARestaurantNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMeARestaurantNViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* FindMeARestaurantNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindMeARestaurantNViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FindMeARestaurantN_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMeARestaurantN_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FindMeARestaurantN-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FindMeARestaurantN-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		940615CE10E208D600946508 /* LocationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetails.h; sourceTree = "<group>"; };
+		940615CF10E208D600946508 /* LocationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetails.m; sourceTree = "<group>"; };
+		940615D010E208D600946508 /* LocationDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LocationDetails.xib; path = Classes/LocationDetails.xib; sourceTree = "<group>"; };
+		940616AE10E310BF00946508 /* phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-icon.png"; sourceTree = "<group>"; };
+		940616B010E310D900946508 /* Menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-icon.png"; sourceTree = "<group>"; };
+		940616B210E3122200946508 /* compass-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compass-icon.png"; sourceTree = "<group>"; };
+		940616F910E49D3100946508 /* map-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-icon.png"; sourceTree = "<group>"; };
+		9406179410E4B24E00946508 /* browser-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "browser-icon.png"; sourceTree = "<group>"; };
+		941ED3D710F4656F009D927E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		94355F5810DF24B9006BE66B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		94355F5910DF24B9006BE66B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		94355F5A10DF24B9006BE66B /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MapViewController.xib; path = Classes/MapViewController.xib; sourceTree = "<group>"; };
+		9435617F10DF68C3006BE66B /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		9435618010DF68C3006BE66B /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		943562A510E0927E006BE66B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9435636E10E0A3DD006BE66B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		94464AD310F297B300A6A354 /* star-gold24-bw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-gold24-bw.png"; sourceTree = "<group>"; };
+		948E5E5610E88D9C0026A0B3 /* half-star-gold24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "half-star-gold24.png"; sourceTree = "<group>"; };
+		948E5E5A10E88DB40026A0B3 /* star-gold24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-gold24.png"; sourceTree = "<group>"; };
+		948E60A210E9EBE50026A0B3 /* small-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-circle.png"; sourceTree = "<group>"; };
+		948E60A610E9ED640026A0B3 /* big-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-circle.png"; sourceTree = "<group>"; };
+		948E60AD10E9F00C0026A0B3 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		948E60E010EC6CAD0026A0B3 /* LocationListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListView.h; sourceTree = "<group>"; };
+		948E60E110EC6CAD0026A0B3 /* LocationListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListView.m; sourceTree = "<group>"; };
+		948E60E210EC6CAD0026A0B3 /* LocationListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LocationListView.xib; path = Classes/LocationListView.xib; sourceTree = "<group>"; };
+		948E612010EC80EF0026A0B3 /* LocationListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationListCell.h; sourceTree = "<group>"; };
+		948E612110EC80EF0026A0B3 /* LocationListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationListCell.m; sourceTree = "<group>"; };
+		948E612510EC82940026A0B3 /* LocationListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LocationListCell.xib; path = Classes/LocationListCell.xib; sourceTree = "<group>"; };
+		948E620C10ECA5130026A0B3 /* green-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-dot.png"; sourceTree = "<group>"; };
+		948E621710ED7A650026A0B3 /* red-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-dot.png"; sourceTree = "<group>"; };
+		948E621910ED7BE80026A0B3 /* purple-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple-dot.png"; sourceTree = "<group>"; };
+		948E629B10EE99460026A0B3 /* food-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food-icon.png"; sourceTree = "<group>"; };
+		94C1070F1102A0D600524A92 /* next_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_arrow.png; sourceTree = "<group>"; };
+		94C107141102A1D500524A92 /* prev_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev_arrow.png; sourceTree = "<group>"; };
+		94C1078D1102D26200524A92 /* LocationDataList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataList.h; sourceTree = "<group>"; };
+		94C1078E1102D26200524A92 /* LocationDataList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataList.m; sourceTree = "<group>"; };
+		94DBF45B1106F6BD00709CD4 /* map-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-32x32.png"; sourceTree = "<group>"; };
+		94DBF6591109655800709CD4 /* back_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow.png; sourceTree = "<group>"; };
+		94DBF65B1109656200709CD4 /* more_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more_arrow.png; sourceTree = "<group>"; };
+		94DBF6941109700500709CD4 /* list_50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_50x50.png; sourceTree = "<group>"; };
+		94DBF6A51109740700709CD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		94DBF6F01109844E00709CD4 /* FindMeARestaurantN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMeARestaurantN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DBF7C4110B869600709CD4 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideView.h; sourceTree = "<group>"; };
+		94DBF7C5110B869600709CD4 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideView.m; sourceTree = "<group>"; };
+		94DBF7C6110B869600709CD4 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		94DBF7C7110B869600709CD4 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		94DBF7D3110B872500709CD4 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		94F07EE210F67E1C00D7DB01 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				943562A610E0927E006BE66B /* MapKit.framework in Frameworks */,
+				9435636F10E0A3DD006BE66B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				948E612010EC80EF0026A0B3 /* LocationListCell.h */,
+				948E612110EC80EF0026A0B3 /* LocationListCell.m */,
+				1D3623240D0F684500981E51 /* FindMeARestaurantNAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FindMeARestaurantNAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* FindMeARestaurantNViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* FindMeARestaurantNViewController.m */,
+				94355F5810DF24B9006BE66B /* MapViewController.h */,
+				94355F5910DF24B9006BE66B /* MapViewController.m */,
+				9435617F10DF68C3006BE66B /* Restaurant.h */,
+				9435618010DF68C3006BE66B /* Restaurant.m */,
+				940615CE10E208D600946508 /* LocationDetails.h */,
+				940615CF10E208D600946508 /* LocationDetails.m */,
+				948E60E010EC6CAD0026A0B3 /* LocationListView.h */,
+				948E60E110EC6CAD0026A0B3 /* LocationListView.m */,
+				94C1078D1102D26200524A92 /* LocationDataList.h */,
+				94C1078E1102D26200524A92 /* LocationDataList.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DBF6F01109844E00709CD4 /* FindMeARestaurantN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				94DBF7C3110B867000709CD4 /* Flip View */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				941ED3D710F4656F009D927E /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FindMeARestaurantN_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94DBF7D3110B872500709CD4 /* FlipsideView.xib */,
+				94DBF6591109655800709CD4 /* back_arrow.png */,
+				94DBF6941109700500709CD4 /* list_50x50.png */,
+				94DBF65B1109656200709CD4 /* more_arrow.png */,
+				94C1070F1102A0D600524A92 /* next_arrow.png */,
+				94F07EE210F67E1C00D7DB01 /* left-arrow.png */,
+				94464AD310F297B300A6A354 /* star-gold24-bw.png */,
+				94DBF45B1106F6BD00709CD4 /* map-32x32.png */,
+				948E629B10EE99460026A0B3 /* food-icon.png */,
+				948E621910ED7BE80026A0B3 /* purple-dot.png */,
+				94C107141102A1D500524A92 /* prev_arrow.png */,
+				948E621710ED7A650026A0B3 /* red-dot.png */,
+				948E620C10ECA5130026A0B3 /* green-dot.png */,
+				948E612510EC82940026A0B3 /* LocationListCell.xib */,
+				948E60E210EC6CAD0026A0B3 /* LocationListView.xib */,
+				948E60AD10E9F00C0026A0B3 /* list.png */,
+				94DBF6A51109740700709CD4 /* Default.png */,
+				948E60A610E9ED640026A0B3 /* big-circle.png */,
+				948E60A210E9EBE50026A0B3 /* small-circle.png */,
+				948E5E5A10E88DB40026A0B3 /* star-gold24.png */,
+				948E5E5610E88D9C0026A0B3 /* half-star-gold24.png */,
+				9406179410E4B24E00946508 /* browser-icon.png */,
+				940616F910E49D3100946508 /* map-icon.png */,
+				940616B210E3122200946508 /* compass-icon.png */,
+				940616B010E310D900946508 /* Menu-icon.png */,
+				940616AE10E310BF00946508 /* phone-icon.png */,
+				940615D010E208D600946508 /* LocationDetails.xib */,
+				94355F5A10DF24B9006BE66B /* MapViewController.xib */,
+				2899E5210DE3E06400AC0155 /* FindMeARestaurantNViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* FindMeARestaurantN-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9435636E10E0A3DD006BE66B /* CoreLocation.framework */,
+				943562A510E0927E006BE66B /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94DBF7C3110B867000709CD4 /* Flip View */ = {
+			isa = PBXGroup;
+			children = (
+				94DBF7C4110B869600709CD4 /* FlipsideView.h */,
+				94DBF7C5110B869600709CD4 /* FlipsideView.m */,
+				94DBF7C6110B869600709CD4 /* FlipsideViewController.h */,
+				94DBF7C7110B869600709CD4 /* FlipsideViewController.m */,
+			);
+			name = "Flip View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FindMeARestaurantN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FindMeARestaurantN" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMeARestaurantN;
+			productName = FindMeARestaurantN;
+			productReference = 94DBF6F01109844E00709CD4 /* FindMeARestaurantN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FindMeARestaurantN" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FindMeARestaurantN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* FindMeARestaurantNViewController.xib in Resources */,
+				94355F5C10DF24B9006BE66B /* MapViewController.xib in Resources */,
+				940615D210E208D600946508 /* LocationDetails.xib in Resources */,
+				940616AF10E310BF00946508 /* phone-icon.png in Resources */,
+				940616B110E310D900946508 /* Menu-icon.png in Resources */,
+				940616B310E3122200946508 /* compass-icon.png in Resources */,
+				940616FA10E49D3100946508 /* map-icon.png in Resources */,
+				9406179510E4B24E00946508 /* browser-icon.png in Resources */,
+				948E5E5710E88D9C0026A0B3 /* half-star-gold24.png in Resources */,
+				948E5E5B10E88DB40026A0B3 /* star-gold24.png in Resources */,
+				948E60A310E9EBE50026A0B3 /* small-circle.png in Resources */,
+				948E60A710E9ED640026A0B3 /* big-circle.png in Resources */,
+				948E60AE10E9F00C0026A0B3 /* list.png in Resources */,
+				948E60E410EC6CAD0026A0B3 /* LocationListView.xib in Resources */,
+				948E612610EC82940026A0B3 /* LocationListCell.xib in Resources */,
+				948E620D10ECA5130026A0B3 /* green-dot.png in Resources */,
+				948E621810ED7A650026A0B3 /* red-dot.png in Resources */,
+				948E621A10ED7BE80026A0B3 /* purple-dot.png in Resources */,
+				948E629C10EE99460026A0B3 /* food-icon.png in Resources */,
+				94464AD410F297B300A6A354 /* star-gold24-bw.png in Resources */,
+				941ED3D810F4656F009D927E /* Entitlements.plist in Resources */,
+				94F07EE310F67E1C00D7DB01 /* left-arrow.png in Resources */,
+				94C107101102A0D600524A92 /* next_arrow.png in Resources */,
+				94C107151102A1D500524A92 /* prev_arrow.png in Resources */,
+				94DBF45C1106F6BD00709CD4 /* map-32x32.png in Resources */,
+				94DBF65A1109655800709CD4 /* back_arrow.png in Resources */,
+				94DBF65C1109656200709CD4 /* more_arrow.png in Resources */,
+				94DBF6951109700500709CD4 /* list_50x50.png in Resources */,
+				94DBF6A61109740700709CD4 /* Default.png in Resources */,
+				94DBF7D4110B872500709CD4 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FindMeARestaurantNAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* FindMeARestaurantNViewController.m in Sources */,
+				94355F5B10DF24B9006BE66B /* MapViewController.m in Sources */,
+				9435618110DF68C3006BE66B /* Restaurant.m in Sources */,
+				940615D110E208D600946508 /* LocationDetails.m in Sources */,
+				948E60E310EC6CAD0026A0B3 /* LocationListView.m in Sources */,
+				948E612210EC80EF0026A0B3 /* LocationListCell.m in Sources */,
+				94C1078F1102D26200524A92 /* LocationDataList.m in Sources */,
+				94DBF7C8110B869600709CD4 /* FlipsideView.m in Sources */,
+				94DBF7C9110B869600709CD4 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Praveen Sadhu (JG43ULK228)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FindMeARestaurantN_Prefix.pch;
+				INFOPLIST_FILE = "FindMeARestaurantN-Info.plist";
+				PRODUCT_NAME = FindMeARestaurantN;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E8A097B5-3CFF-4F28-B5B3-789120CD46B6";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FindMeARestaurantN_Prefix.pch;
+				INFOPLIST_FILE = "FindMeARestaurantN-Info.plist";
+				PRODUCT_NAME = FindMeARestaurantN;
+			};
+			name = Release;
+		};
+		941ED40110F483A7009D927E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		941ED40210F483A7009D927E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Praveen Sadhu";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FindMeARestaurantN_Prefix.pch;
+				INFOPLIST_FILE = "FindMeARestaurantN-Info.plist";
+				PRODUCT_NAME = FindMeARestaurantN;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "675C32BC-A221-42A7-B56E-F29B96F28229";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FindMeARestaurantN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				941ED40210F483A7009D927E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FindMeARestaurantN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				941ED40110F483A7009D927E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
